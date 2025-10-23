@@ -1,0 +1,29 @@
+body{
+	background=color"#ff00ff; 
+	font-family:Arial, sans-serif;
+}
+
+header{
+	background-color:lightblue;
+	color:white;
+	padding:20px;
+	text-align:center;
+}
+
+nav a{
+	color:gold;
+	text-decoration-line: underline;
+	margin:0 10px;
+}
+	
+h1 {
+	color: blue;
+
+]
+.headline {
+	color: green;
+}	
+footer[
+	font-size:1.5cm;
+	text-align:center;
+	padding:15px;
