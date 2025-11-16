@@ -1,3 +1,7 @@
+* {
+	border: 1px solid blue;
+}
+
 body{
 	background=color"#ff00ff; 
 	font-family:Arial, sans-serif;
@@ -6,7 +10,7 @@ body{
 header{
 	background-color:lightblue;
 	color:white;
-	padding:20px;
+	padding:10px;
 	text-align:center;
 }
 
@@ -18,12 +22,29 @@ nav a{
 	
 h1 {
 	color: blue;
+	font-weight: bold;
+}
 
-]
+h2 {
+	color: green;
+	font-weight: bold;
+}
+
+h3 {
+	color: purple;
+	font-weight: bold;
+}
+
+h4 {
+	color: blue;
+	font-weight: bold;
+}
+
 .headline {
 	color: green;
 }	
-footer[
+footer{
 	font-size:1.5cm;
 	text-align:center;
 	padding:15px;
+}
