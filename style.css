@@ -4,31 +4,26 @@ body{
 }
 
 header{
-	background-color: #333;
-	color: white;
-	padding: 10px;
-	text-align: center;
+	background-color:lightblue;
+	color:white;
+	padding:20px;
+	text-align:center;
 }
 
-nav a {
-	color: #ffee00;
-	text-decoration-line: none;
-	margin: 0 10px;
-}
-
-nav a:hover {
-	text-decoration: underline;
+nav a{
+	color:gold;
+	text-decoration-line: underline;
+	margin:0 10px;
 }
 	
 h1 {
 	color: blue;
 
+]
 .headline {
 	color: green;
 }	
-footer {
-	font-size: 0.8cm;
-	text-align: center;
-	padding: 10px;
-	color: #555;
-}
+footer[
+	font-size:1.5cm;
+	text-align:center;
+	padding:15px;
