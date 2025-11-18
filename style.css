@@ -1,61 +1,91 @@
 * {
-	border: 1px solid blue;
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
 }
 
 body{
-	background=color"#ff00ff; 
-	font-family:Arial, sans-serif;
+	font-family: 'Open Sans', sans-serif;
+	line-height: 1.6;
+	background-color: #f4f4f4;
+	color: #333;
 }
 
-.profile-pic {
-	width: 100px;
-	height: 100px;
-	object-fit: cover;
-	border-radius: 50%;
-	border: 3px solid #007bff;
+header {
+	background-color: #333;
+	color: #fff;
+	padding: 1rem 0;
+	text-align: center;
+	font-family: 'Sonsie One', cursive;
+}
+
+nav ul {
+	list-style: none;
+	display: flex;
+	justify-content: center;
+	background-color: #444;
+}
+
+nav ul li a {
+	color: #fff;
+	text-decoration: none;
+	padding: 15px 20px;
 	display: block;
-	margin: 0 auto;
+	transition: background-color 0.3s ease, color 0.3s ease;
 }
 
-header{
-	background-color:lightblue;
-	color:white;
-	padding:10px;
-	text-align:center;
+nav ul li a:hover {
+	background-color: #007BFF;
+	color: #fff;
 }
 
-nav a{
-	color:gold;
-	text-decoration-line: underline;
-	margin:0 10px;
-}
-	
-h1 {
-	color: blue;
-	font-weight: bold;
+main {
+	max-width: 1000px:
+	margin: 20px auto;
+	padding: 0 20px;
 }
 
-h2 {
-	color: green;
-	font-weight: bold;
+.card-section {
+	margin-bottom: 20px;
+	padding: 20px;
+	border-radius: 8px;
+	background: linear-gradient(to right, #007BFF, #0056b3);
+	color: white;
 }
 
-h3 {
-	color: purple;
-	font-weight: bold;
+.card {
+	background-color: rgba(255, 255, 255, 0.9);
+	padding: 20px;
+	border-radius: 8px;
+	box-shadow: 0 4px 8px rgba(0,0,0,0.1):
+	color: #333;
+}
+#section2 {
+	background: linear-gradient(to right, #28a745, #218838);
 }
 
-h4 {
-	color: blue;
-	font-weight: bold;
+#section3 {
+	background: linear gradient(to right, #ffc107, #e0a800);
 }
 
-.headline {
-	color: green;
-}	
-footer{
-	font-size:1.5cm;
-	text-align:center;
-	padding:15px;
+#section4 {
+	background: linear gradient(to right, #dc3545, #c82333);
+
+footer {
+	background-color: #333;
+	color: #fff;
+	text-align: center;
+	padding: 1rem 0;
+	margin-top: 20px;
 }
+
+footer a {
+	color: #007BFF;
+	text-decoration: none;
+}
+
+footer a:hover {
+	text-decoration: underline;
+}
+
 
